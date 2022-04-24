@@ -3,18 +3,18 @@
 ![npm](https://img.shields.io/npm/dt/simple-discord-wh.svg "Total Downloads")
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/wrong7/simple-discord-wh.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/wrong7/simple-discord-wh/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/wrong7/simple-discord-wh.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/wrong7/simple-discord-wh/context:javascript)
-Node.js library to manage Discord's webhook
+
+Manage Discord's webhook with a simple class
 
 - [Installation](#installation)
 - [Examples](#examples)
     - [Basic use](#basic-use)
     - [Custom embeds](#custom-embeds)
     - [Sending files](#sending-files)
-    - [Custom settings](#custom-settings)
 - [Notes](#notes)
 - [API](#api)
     - [Webhook](#webhook---class)
-    - [MessageBuilder](#messagebuilder---class)
+    - [Embed](#embed---class)
 - [License](#license)
 
 # Installation

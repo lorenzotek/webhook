@@ -119,9 +119,7 @@ const wh = new Webhook("YOUR WEBHOOK URL");
 # API
 ## Webhook - class
 Constructor
-- options (optional) : object
-    - throwErrors (optional) : boolean
-    - retryOnLimit (optional) : boolean
+- url : string
 
 Methods
 - setUsername(username : string) returns this

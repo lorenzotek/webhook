@@ -82,9 +82,9 @@ wh.send({embeds: [embed.build()]})
 ## Sending files
 ```js
 const { Webhook } = require('simple-discord-wh');
-const hook = new Webhook('YOUR WEBHOOK URL');
+const wh = new Webhook('YOUR WEBHOOK URL');
 
-hook.sendFile('../yourfilename.png');
+wh.sendFile('../yourfilename.png');
 ```
 
 # Notes

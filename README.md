@@ -87,10 +87,6 @@ const hook = new Webhook('YOUR WEBHOOK URL');
 hook.sendFile('../yourfilename.png');
 ```
 
-wh.setUsername('Username'); //Overrides the default webhook username
-wh.setAvatar('YOUR_AVATAR_URL'); //Overrides the default webhook avatar
-```
-
 # Notes
 simple-discord-wh is a promise based library, which means you can use `.catch`, `.then`, and `await`. If successful when sending a new message, the returned value will be the id of the message sent. For example:
 

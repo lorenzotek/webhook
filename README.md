@@ -44,10 +44,10 @@ wh.send({content: "This is also valid"})
 ## Custom embeds
 
 ```js
-const { Webhook, MessageBuilder } = require('simple-discord-wh');
+const { Webhook, Embed } = require('simple-discord-wh');
 const wh = new Webhook("YOUR WEBHOOK URL");
 
-const embed = new MessageBuilder()
+const embed = new Embed()
 .setTitle('Custom title')
 .setAuthor('Walrus', 'https://avatars.githubusercontent.com/u/6708827?s=120&v=4', 'https://www.google.com')
 .setURL('https://www.google.com')

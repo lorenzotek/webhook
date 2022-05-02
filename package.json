@@ -1,6 +1,6 @@
 {
   "name": "simple-discord-wh",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Manage Discord's webhook with a single class",
   "main": "./src/index.js",
   "exports": {
